@@ -1,4 +1,4 @@
-# 🍂 Platform Destroyer Doritus SALADOFUTURO Client
+# 🍂🌿 Platform Destroyer Doritus SALADOFUTURO Client
 ### Customize your SALADOFUTURO platforms with a simple code.
 
 ```js
