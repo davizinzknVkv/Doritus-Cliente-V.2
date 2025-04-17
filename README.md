@@ -1,13 +1,14 @@
-# 🍂 Platform Destroyer Doritus CMSP Client
-### Customize your CMSP platforms with a simple code.
+# 🍂 Platform Destroyer Doritus SALADOFUTURO Client
+### Customize your SALADOFUTURO platforms with a simple code.
 
 ```js
+
 // ==UserScript==
-// @name         DoritusClient
+// @name         DoritusClient Versão corrigida
 // @namespace    http://tampermonkey.net/
-// @version      1
+// @version      2
 // @description  Doritus Client da sala do futuro
-// @author       tecniccomsono
+// @author       davizinzknVkv
 // @match        https://saladofuturo.educacao.sp.gov.br/*
 // @icon         https://doritus.mmrcoss.tech/assets/doritus.svg
 // @grant        none
@@ -15,9 +16,9 @@
 
 (function() {
     'use strict';
-    const novaImagem1 = "https://cdn.discordapp.com/attachments/1312515287911895062/1313500661345947698/imagem_2024-12-03_104102205-removebg-preview.png?ex=67505c51&is=674f0ad1&hm=bd9dd1463faa4ebefbc1dcb11af3154fadeec47755025494a9629fa0538f785f";
-    const novaImagem2 = "https://cdn.discordapp.com/attachments/1312515287911895062/1313500661345947698/imagem_2024-12-03_104102205-removebg-preview.png?ex=67505c51&is=674f0ad1&hm=bd9dd1463faa4ebefbc1dcb11af3154fadeec47755025494a9629fa0538f785f";
-    const novaImagem3 = "https://cdn.discordapp.com/attachments/1312515287911895062/1313500661345947698/imagem_2024-12-03_104102205-removebg-preview.png?ex=67505c51&is=674f0ad1&hm=bd9dd1463faa4ebefbc1dcb11af3154fadeec47755025494a9629fa0538f785f";
+    const novaImagem1 = "https://media.discordapp.net/attachments/1350690484367921235/1358766578270994512/11.gif?ex=6800e6fc&is=67ff957c&hm=e8d49c0e66c171b1cc8568654481a4d89a34827753b129a7beebce396dee87b5&=";
+    const novaImagem2 = "https://media.discordapp.net/attachments/1350690484367921235/1358766784190091396/23.gif?ex=6800e72e&is=67ff95ae&hm=0291d9dd8ef5a3920dbf66432673b515caf847ceb7ec33257dcd207a9d1ac5ca&=";
+    const novaImagem3 = "https://media.discordapp.net/attachments/1350690484367921235/1358766823192920156/26.gif?ex=6800e737&is=67ff95b7&hm=ce8dd4af2eab0e17d03800ca62ea7f9aaeb4ea7bfb442eed3e9c1b6e4476b824&=";
     const seletorImagem1 = "#root > div.MuiBox-root.css-z0hhne > div.MuiDrawer-root.MuiDrawer-docked.css-em35d7 > div > div > div.simplebar-wrapper > div.simplebar-mask > div > div > div > div > div.MuiBox-root.css-1j0h67t > img";
     const seletorImagem2 = "#root > div.MuiBox-root.css-z0hhne > div.MuiBox-root.css-a60g7b > div > div.simplebar-wrapper > div.simplebar-mask > div > div > div > div.MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-1.css-o37zhb > div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-lg-3.css-ja4s3e > img";
     const seletorImagem3 = "#root > div.MuiBox-root.css-z0hhne > div.MuiBox-root.css-a60g7b > div > div.simplebar-wrapper > div.simplebar-mask > div > div > div > div.css-gsuwte > div > div > div.css-gsuwte > div > div.MuiGrid-root.MuiGrid-container.css-1d3bbye > div.MuiGrid-root.MuiGrid-container.MuiGrid-item.MuiGrid-spacing-xs-1.MuiGrid-grid-xs-12.css-1k7k5az > div:nth-child(1)"
@@ -301,7 +302,6 @@ function mostrarNotificacao() {
     document.body.appendChild(notificacao);
 }
 mostrarNotificacao();
-
 ```
 
 By creating this repository, I grant everyone permission to use my code. However, do not use it for profit (this is a free tampermonkey code)
@@ -309,7 +309,3 @@ By creating this repository, I grant everyone permission to use my code. However
 Thanks for looking at this.
 
 ---
-
-<p align="center">
-    <img src="https://cdn.discordapp.com/attachments/1312515287911895062/1313500661345947698/imagem_2024-12-03_104102205-removebg-preview.png?ex=67505c51&is=674f0ad1&hm=bd9dd1463faa4ebefbc1dcb11af3154fadeec47755025494a9629fa0538f785f" alt="DoritusLogo">
-</p>
